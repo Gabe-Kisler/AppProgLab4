@@ -54,11 +54,11 @@ public class Wizard {
         return species;
     }
 
-    public void getAssignment (String assignment) {
+    public void setAssignment (String assignment) {
         this.assignment = assignment;
     }
 
-    public String setAssignment () {
+    public String getAssignment () {
         return assignment;
     }
     public String toString () {

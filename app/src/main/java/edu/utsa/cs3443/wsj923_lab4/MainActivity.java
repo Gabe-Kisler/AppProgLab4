@@ -23,35 +23,35 @@ public class MainActivity extends AppCompatActivity {
         windriderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                launchActivity("windrider");
+                launchActivity("Windrider DR-512");
             }
         });
 
         stormchaserButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                launchActivity("stormchaser");
+                launchActivity("Stormchaser ST-743");
             }
         });
 
         skybreakerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View view) {
-                launchActivity("skybreaker");
+                launchActivity("Skybreaker SK-301");
             }
         });
 
         thunderhawkButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View view) {
-                launchActivity("thunderhawk");
+                launchActivity("Thunderhawk TH-104");
             }
         });
     }
 
-    public void launchActivity(String buttonType) {
+    public void launchActivity(String registry) {
         Intent intent = new Intent(this, AirshipActivity.class);
-        intent.putExtra("buttonType", buttonType);
+        intent.putExtra("registry", registry);
         startActivity(intent);
     }
 

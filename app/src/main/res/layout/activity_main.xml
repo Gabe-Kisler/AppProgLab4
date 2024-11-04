@@ -1,56 +1,55 @@
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="#5b8961"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:gravity="center_horizontal">
+    tools:context=".MainActivity">
 
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
         android:src="@drawable/logo"
         app:tint="#5b8961"
-        app:tintMode="multiply"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="80dp"/>
+        app:tintMode="multiply" />
 
     <Button
         android:id="@+id/windrider"
         android:layout_width="330dp"
         android:layout_height="100dp"
+        android:layout_marginTop="0dp"
         android:backgroundTint="#000000"
-        android:text="windrider"
-        android:layout_marginTop="0dp"/>
+        android:text="windrider" />
 
     <Button
         android:id="@+id/stormchaser"
         android:layout_width="330dp"
         android:layout_height="100dp"
+        android:layout_marginTop="0dp"
         android:backgroundTint="#000000"
-        android:text="stormchaser"
-        android:layout_marginTop="0dp"/>
+        android:text="stormchaser" />
 
     <Button
         android:id="@+id/skybreaker"
         android:layout_width="330dp"
         android:layout_height="100dp"
+        android:layout_marginTop="0dp"
         android:backgroundTint="#000000"
-        android:text="skybreaker"
-        android:layout_marginTop="0dp"/>
+        android:text="skybreaker" />
 
     <Button
         android:id="@+id/thunderhawk"
         android:layout_width="330dp"
         android:layout_height="100dp"
+        android:layout_marginTop="0dp"
         android:backgroundTint="#000000"
-        android:text="thunderhawk"
-        android:layout_marginTop="0dp"/>
+        android:text="thunderhawk" />
 
 
 </LinearLayout>
